@@ -1,8 +1,8 @@
 # Spring Boot starter
 
-A minimal Spring Boot 3 app on Java 21, ready to deploy on [Containify](https://containify.cloud):
+A minimal Spring Boot 4 app on Java 21, ready to deploy on [Containify](https://containify.cloud):
 
-- Spring Web with `JdbcClient`, and Postgres through the PostgreSQL JDBC driver
+- Spring MVC with `JdbcClient`, and Postgres through the PostgreSQL JDBC driver
 - [Flyway](https://documentation.red-gate.com/flyway) migrations in `src/main/resources/db/migration`, applied at startup
 - `GET /` answers JSON and counts visits in Postgres; Actuator's `/actuator/health` checks the database
 - A layered, multi-stage Dockerfile: dependencies in their own layer, the Temurin 21 JRE, a non-root user
