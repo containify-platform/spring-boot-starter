@@ -1,5 +1,7 @@
 # Spring Boot starter
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/spring-boot)
+
 A minimal Spring Boot 4 app on Java 21, ready to deploy on [Containify](https://containify.cloud):
 
 - Spring MVC with `JdbcClient`, and Postgres through the PostgreSQL JDBC driver
@@ -53,6 +55,10 @@ java -jar application.jar --spring.flyway.enabled=true --spring.main.web-applica
 
 ## Deploy on Containify
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/spring-boot)
+
+One click deploys it on [Containify](https://containify.cloud). The [template page](https://containify.cloud/templates/spring-boot) shows what it creates, and passwords, connection strings and the HTTPS address are filled in for you.
+
 Deploy the [Spring Boot starter template](https://containify.cloud/templates/spring-boot): it
 builds this repository with its Dockerfile and adds a Postgres database, with the three
 `SPRING_DATASOURCE_` variables already set. To make it your own, fork this repository and point
@@ -63,3 +69,7 @@ See the [Spring Boot guide](https://containify.cloud/docs/guides/spring-boot) fo
 ## License
 
 MIT
+
+---
+
+Made by [Containify](https://containify.cloud): deploy apps, databases and workers from a Git repo or an image, with per-second billing. [Docs](https://containify.cloud/docs) · [Templates](https://containify.cloud/templates)
